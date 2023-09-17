@@ -1,1 +1,804 @@
-this is a test page
+<!DOCTYPE html>
+<!-- saved from url=(0018)http://qtesla-signature.github.io/ -->
+<html lang="en-US" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>qTESLA – Efficient and post-quantum secure lattice-based signature scheme</title>
+<meta name="robots" content="noindex, nofollow">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<meta name="theme-color" content="#fefeff"><link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="qTESLA » Feed" href="http://qtesla-signature.github.io/feed">
+<link rel="alternate" type="application/rss+xml" title="qTESLA » Comments Feed" href="http://qtesla-signature.github.io/comments/feed">
+<link rel="alternate" type="text/calendar" title="qTESLA » iCal Feed" href="http://qtesla-signature.github.io/events/?ical=1">
+<style id="reykjavik-text-widget-icon-fallback">.widget-symbol::before { content: "?"; font-family: inherit; }</style><script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/qtesla-signature.github.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/style.min.css" media="all">
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel="stylesheet" id="bsk-pdf-manager-pro-css-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/bsk-pdf-manager-pro.css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/styles.css" media="all">
+<link rel="stylesheet" id="wpfm-frontend-font-awesome-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/font-awesome.min.css" media="all">
+<link rel="stylesheet" id="wpfm-frontend-genericons-css-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/genericons.css" media="all">
+<link rel="stylesheet" id="wpfm-frontend-css-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/front-end.css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/dashicons.min.css" media="all">
+<link rel="stylesheet" id="wpfm-frontend-vesper-icons-css-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/vesper-icons.css" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/default.css" media="all">
+<style id="wp-global-styles-inline-css">
+:root{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--color-intro-overlay-background-mod: #0f1732;--wp--preset--color--color-header-headings-mod: #232324;--wp--preset--color--color-accent-mod: #273a7d;--wp--preset--color--color-footer-text-mod: #3f3f3f;--wp--preset--color--color-header-text-mod: #535354;--wp--preset--color--color-intro-widgets-text-mod: #d3d3d4;--wp--preset--color--color-intro-background-mod: #fafafb;--wp--preset--color--color-accent-text-mod: #fefeff;--wp--preset--color--color-footer-background-mod: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 15px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 25px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--extra-small: 11px;--wp--preset--font-size--normal: 18px;--wp--preset--font-size--extra-large: 29px;--wp--preset--font-size--display-1: 47px;--wp--preset--font-size--display-2: 60px;--wp--preset--font-size--display-3: 76px;--wp--preset--font-size--display-4: 97px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}:root .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}:root .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}:root .is-layout-flow > .aligncenter{margin-left: auto;margin-right: auto;}:root .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}:root .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}:root .is-layout-constrained > .aligncenter{margin-left: auto;margin-right: auto;}:root .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto;margin-right: auto;}:root .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}:root .is-layout-flex{display: flex;}:root .is-layout-flex{flex-wrap: wrap;align-items: center;}:root .is-layout-flex > *{margin: 0;}:root .is-layout-grid{display: grid;}:root .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color[class]{color: var(--wp--preset--color--black);}.has-cyan-bluish-gray-color[class]{color: var(--wp--preset--color--cyan-bluish-gray);}.has-white-color[class]{color: var(--wp--preset--color--white);}.has-pale-pink-color[class]{color: var(--wp--preset--color--pale-pink);}.has-vivid-red-color[class]{color: var(--wp--preset--color--vivid-red);}.has-luminous-vivid-orange-color[class]{color: var(--wp--preset--color--luminous-vivid-orange);}.has-luminous-vivid-amber-color[class]{color: var(--wp--preset--color--luminous-vivid-amber);}.has-light-green-cyan-color[class]{color: var(--wp--preset--color--light-green-cyan);}.has-vivid-green-cyan-color[class]{color: var(--wp--preset--color--vivid-green-cyan);}.has-pale-cyan-blue-color[class]{color: var(--wp--preset--color--pale-cyan-blue);}.has-vivid-cyan-blue-color[class]{color: var(--wp--preset--color--vivid-cyan-blue);}.has-vivid-purple-color[class]{color: var(--wp--preset--color--vivid-purple);}.has-black-background-color[class]{background-color: var(--wp--preset--color--black);}.has-cyan-bluish-gray-background-color[class]{background-color: var(--wp--preset--color--cyan-bluish-gray);}.has-white-background-color[class]{background-color: var(--wp--preset--color--white);}.has-pale-pink-background-color[class]{background-color: var(--wp--preset--color--pale-pink);}.has-vivid-red-background-color[class]{background-color: var(--wp--preset--color--vivid-red);}.has-luminous-vivid-orange-background-color[class]{background-color: var(--wp--preset--color--luminous-vivid-orange);}.has-luminous-vivid-amber-background-color[class]{background-color: var(--wp--preset--color--luminous-vivid-amber);}.has-light-green-cyan-background-color[class]{background-color: var(--wp--preset--color--light-green-cyan);}.has-vivid-green-cyan-background-color[class]{background-color: var(--wp--preset--color--vivid-green-cyan);}.has-pale-cyan-blue-background-color[class]{background-color: var(--wp--preset--color--pale-cyan-blue);}.has-vivid-cyan-blue-background-color[class]{background-color: var(--wp--preset--color--vivid-cyan-blue);}.has-vivid-purple-background-color[class]{background-color: var(--wp--preset--color--vivid-purple);}.has-black-border-color[class]{border-color: var(--wp--preset--color--black);}.has-cyan-bluish-gray-border-color[class]{border-color: var(--wp--preset--color--cyan-bluish-gray);}.has-white-border-color[class]{border-color: var(--wp--preset--color--white);}.has-pale-pink-border-color[class]{border-color: var(--wp--preset--color--pale-pink);}.has-vivid-red-border-color[class]{border-color: var(--wp--preset--color--vivid-red);}.has-luminous-vivid-orange-border-color[class]{border-color: var(--wp--preset--color--luminous-vivid-orange);}.has-luminous-vivid-amber-border-color[class]{border-color: var(--wp--preset--color--luminous-vivid-amber);}.has-light-green-cyan-border-color[class]{border-color: var(--wp--preset--color--light-green-cyan);}.has-vivid-green-cyan-border-color[class]{border-color: var(--wp--preset--color--vivid-green-cyan);}.has-pale-cyan-blue-border-color[class]{border-color: var(--wp--preset--color--pale-cyan-blue);}.has-vivid-cyan-blue-border-color[class]{border-color: var(--wp--preset--color--vivid-cyan-blue);}.has-vivid-purple-border-color[class]{border-color: var(--wp--preset--color--vivid-purple);}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple);}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan);}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange);}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red);}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray);}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum);}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple);}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux);}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk);}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean);}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass);}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight);}.has-small-font-size{font-size: var(--wp--preset--font-size--small);}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium);}.has-large-font-size{font-size: var(--wp--preset--font-size--large);}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large);}
+</style>
+<link rel="stylesheet" id="jquery-lazyloadxt-spinner-css-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/jquery.lazyloadxt.spinner.css" media="all">
+<link rel="stylesheet" id="reykjavik-google-fonts-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/css" media="screen">
+<link rel="stylesheet" id="genericons-neue-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/genericons-neue.css" media="screen">
+<link rel="stylesheet" id="reykjavik-stylesheet-global-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/main.css" media="screen">
+<link rel="stylesheet" id="reykjavik-stylesheet-blocks-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/blocks.css" media="screen">
+<link rel="stylesheet" id="um_fonticons_ii-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-fonticons-ii.css" media="all">
+<link rel="stylesheet" id="um_fonticons_fa-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-fonticons-fa.css" media="all">
+<link rel="stylesheet" id="select2-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/select2.min.css" media="all">
+<link rel="stylesheet" id="um_crop-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-crop.css" media="all">
+<link rel="stylesheet" id="um_modal-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-modal.css" media="all">
+<link rel="stylesheet" id="um_styles-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-styles.css" media="all">
+<link rel="stylesheet" id="um_profile-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-profile.css" media="all">
+<link rel="stylesheet" id="um_account-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-account.css" media="all">
+<link rel="stylesheet" id="um_misc-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-misc.css" media="all">
+<link rel="stylesheet" id="um_fileupload-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-fileupload.css" media="all">
+<link rel="stylesheet" id="um_datetime-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/default(1).css" media="all">
+<link rel="stylesheet" id="um_datetime_date-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/default.date.css" media="all">
+<link rel="stylesheet" id="um_datetime_time-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/default.time.css" media="all">
+<link rel="stylesheet" id="um_raty-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-raty.css" media="all">
+<link rel="stylesheet" id="um_scrollbar-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/simplebar.css" media="all">
+<link rel="stylesheet" id="um_tipsy-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-tipsy.css" media="all">
+<link rel="stylesheet" id="um_responsive-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-responsive.css" media="all">
+<link rel="stylesheet" id="um_default_css-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-old-default.css" media="all">
+<style id="reykjavik-inline-css">
+/* START CSS variables */
+:root { 
+--color_footer_background: #ffffff; --color_footer_text: #3f3f3f; --color_footer_border: rgba(63,63,63,var(--border_opacity)); --footer_image_repeat: no-repeat; --layout_width_site: 1920px; --layout_width_content: 1620px;
+}
+/* END CSS variables */
+.site-footer:not(.is-customize-preview)::before { display: none; }
+.intro-special { background-image: url('/wp-content/uploads/2018/06/cropped-Nikola_Tesla_with_his_equipment_Wellcome_M0014782.jpg'); }
+</style>
+<link rel="stylesheet" id="wpfm-google-fonts-css" href="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/css(1)" media="all">
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/css-vars-ponyfill.min.js" id="css-vars-ponyfill-js"></script>
+<script id="css-vars-ponyfill-js-after">
+window.onload = function() {
+	cssVars( {
+		onlyVars: true,
+		exclude: 'link:not([href^="http://qtesla-signature.github.io/wp-content/themes"])'
+	} );
+};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/jquery.min.js" id="jquery-core-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script id="bsk-pdf-manager-pro-js-extra">
+var bsk_pdf_pro = {"ajaxurl":"http:\/\/qtesla-signature.github.io\/wp-admin\/admin-ajax.php"};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/bsk_pdf_manager_pro.js" id="bsk-pdf-manager-pro-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/frontend.js" id="wpfm-frontend-js-js"></script>
+<script id="a11y-menu-js-extra">
+var a11yMenuConfig = {"mode":["esc","button"],"menu_selector":".toggle-sub-menus","button_attributes":{"class":"button-toggle-sub-menu","aria-label":{"collapse":"Collapse menu: %s","expand":"Expand menu: %s"}}};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/a11y-menu.dist.min.js" id="a11y-menu-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-gdpr.min.js" id="um-gdpr-js"></script>
+<link rel="https://api.w.org/" href="http://qtesla-signature.github.io/wp-json/"><link rel="alternate" type="application/json" href="http://qtesla-signature.github.io/wp-json/wp/v2/pages/33"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://qtesla-signature.github.io/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.3.1">
+<link rel="canonical" href="http://qtesla-signature.github.io/">
+<link rel="shortlink" href="http://qtesla-signature.github.io/">
+<link rel="alternate" type="application/json+oembed" href="http://qtesla-signature.github.io/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fqtesla-signature.github.io%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://qtesla-signature.github.io/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fqtesla-signature.github.io%2F&amp;format=xml">
+		<style type="text/css">
+			.um_request_name {
+				display: none !important;
+			}
+		</style>
+	<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="http://qtesla-signature.github.io"><link rel="alternate" href="http://qtesla-signature.github.io/wp-json/tribe/events/v1/"><style type="text/css" media="screen">input#akismet_privacy_check { float: left; margin: 7px 7px 7px 0; width: 13px; }</style>
+        <script type="text/javascript">
+            var jQueryMigrateHelperHasSentDowngrade = false;
+
+			window.onerror = function( msg, url, line, col, error ) {
+				// Break out early, do not processing if a downgrade reqeust was already sent.
+				if ( jQueryMigrateHelperHasSentDowngrade ) {
+					return true;
+                }
+
+				var xhr = new XMLHttpRequest();
+				var nonce = '7e51bf2aa5';
+				var jQueryFunctions = [
+					'andSelf',
+					'browser',
+					'live',
+					'boxModel',
+					'support.boxModel',
+					'size',
+					'swap',
+					'clean',
+					'sub',
+                ];
+				var match_pattern = /\)\.(.+?) is not a function/;
+                var erroredFunction = msg.match( match_pattern );
+
+                // If there was no matching functions, do not try to downgrade.
+                if ( null === erroredFunction || typeof erroredFunction !== 'object' || typeof erroredFunction[1] === "undefined" || -1 === jQueryFunctions.indexOf( erroredFunction[1] ) ) {
+                    return true;
+                }
+
+                // Set that we've now attempted a downgrade request.
+                jQueryMigrateHelperHasSentDowngrade = true;
+
+				xhr.open( 'POST', 'http://qtesla-signature.github.io/wp-admin/admin-ajax.php' );
+				xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+				xhr.onload = function () {
+					var response,
+                        reload = false;
+
+					if ( 200 === xhr.status ) {
+                        try {
+                        	response = JSON.parse( xhr.response );
+
+                        	reload = response.data.reload;
+                        } catch ( e ) {
+                        	reload = false;
+                        }
+                    }
+
+					// Automatically reload the page if a deprecation caused an automatic downgrade, ensure visitors get the best possible experience.
+					if ( reload ) {
+						location.reload();
+                    }
+				};
+
+				xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce ) );
+
+				// Suppress error alerts in older browsers
+				return true;
+			}
+        </script>
+
+		<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+</head>
+
+
+<body class="footer-layout-fullwidth has-intro has-navigation-mobile header-layout-fullwidth home is-singular no-widgets-sidebar page page-id-33 page-layout-outdented page-template-default site-layout-fullwidth tribe-js wp-embed-responsive">
+
+<a name="top"></a>
+
+<div id="page" class="site">
+
+<nav class="menu-skip-links" aria-label="Skip links">
+	<ul>
+		<li class="skip-link-list-item"><a class="skip-link screen-reader-text" href="http://qtesla-signature.github.io/#site-navigation">Skip to main navigation</a></li><li class="skip-link-list-item"><a class="skip-link screen-reader-text" href="http://qtesla-signature.github.io/#content">Skip to main content</a></li><li class="skip-link-list-item"><a class="skip-link screen-reader-text" href="http://qtesla-signature.github.io/#colophon">Skip to footer</a></li>	</ul>
+</nav>
+
+
+<header id="masthead" class="site-header">
+
+
+
+<div class="site-header-content"><div class="site-header-inner">
+
+
+<div class="site-branding">
+		<div class="site-branding-text">
+		<h1 class="site-title">qTESLA</h1>
+
+					<p class="site-description">Efficient and post-quantum secure lattice-based signature scheme</p>
+				</div>
+</div>
+
+<nav id="site-navigation" class="main-navigation" aria-label="Primary Menu">
+
+			<button id="menu-toggle" class="menu-toggle" aria-controls="menu-primary" aria-expanded="false">Menu</button>
+			<div id="site-navigation-container" class="main-navigation-container">
+		<div class="mobile-search-form"><form role="search" method="get" class="search-form" action="http://qtesla-signature.github.io/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Search">
+			</form></div><div class="menu"><ul id="menu-primary" class="menu-primary toggle-sub-menus"><li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-92"><a href="https://qtesla-signature.github.io/#about" aria-current="page">About</a></li>
+<li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-91"><a href="https://qtesla-signature.github.io/#highlights" aria-current="page">Highlights</a></li>
+<li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-51"><a href="https://qtesla-signature.github.io/#specs" aria-current="page">Specification</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-53"><a href="https://qtesla-signature.github.io/#code" aria-current="page">Code</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-52"><a href="https://qtesla-signature.github.io/#performance" aria-current="page">Performance</a></li>
+<li id="menu-item-46" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-46"><a href="https://qtesla-signature.github.io/#team" aria-current="page">Team</a></li>
+<li class="menu-toggle-skip-link-container"><a href="http://qtesla-signature.github.io/#menu-toggle" class="menu-toggle-skip-link">Skip to menu toggle button</a></li></ul></div>	</div>
+
+</nav>
+
+
+</div></div>
+
+
+
+</header>
+
+
+
+<div id="content" class="site-content">
+<section id="intro-container" class="entry-header intro-container">
+
+	<div class="intro-special intro-special-has-media">
+	<div id="intro" class="intro"><div class="intro-inner">
+
+		<h2 class="page-title h1 intro-title">qTESLA</h2>
+	</div></div>
+
+	
+<div id="intro-media" class="intro-media">
+	<div id="wp-custom-header" class="wp-custom-header"><img src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/cropped-Nikola_Tesla_with_his_equipment_Wellcome_M0014782.jpg" width="1920" height="1079" alt="" decoding="async" srcset="/wp-content/uploads/2018/06/cropped-Nikola_Tesla_with_his_equipment_Wellcome_M0014782.jpg 1920w, /wp-content/uploads/2018/06/cropped-Nikola_Tesla_with_his_equipment_Wellcome_M0014782-300x169.jpg 300w, /wp-content/uploads/2018/06/cropped-Nikola_Tesla_with_his_equipment_Wellcome_M0014782-768x432.jpg 768w, /wp-content/uploads/2018/06/cropped-Nikola_Tesla_with_his_equipment_Wellcome_M0014782-1024x575.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px"></div></div>
+</div>
+</section>
+
+<div class="site-content-inner">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+
+<article id="post-33" class="post-33 page type-page status-publish hentry entry">
+
+	
+	<div class="entry-content"><div class="entry-content-inner"><h2 id="about">&nbsp;About qTESLA</h2>
+<span style="font-family: verdana,geneva,sans-serif;">qTESLA </span>is a family of provably-secure post-quantum signature schemes based on the hardness of the decisional Ring Learning With Errors (R-LWE)&nbsp;problem.<span style="font-family: verdana,geneva,sans-serif;"> </span>The scheme is an efficient variant of the Bai-Galbraith signature scheme —which in&nbsp;turn is based on the “Fiat-Shamir with Aborts” framework by Lyubashevsky— adapted&nbsp;to the setting of ideal lattices.
+
+Concretely, <span style="font-family: verdana,geneva,sans-serif;">qTESLA</span> includes the following parameter sets:
+<table style="border-color: #fcfcfc; background-color: #fcfcfc;">
+<tbody>
+<tr>
+<td></td>
+<td>(1)&nbsp; <span style="font-family: verdana, geneva, sans-serif;">qTESLA-p-I</span>: NIST’s security category 1.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+</tr>
+<tr>
+<td></td>
+<td>(2)&nbsp; <span style="font-family: verdana, geneva, sans-serif;">qTESLA-p-III</span>: NIST’s security category 3.</td>
+</tr>
+</tbody>
+</table>
+<p id="highlights"><span>qTESLA was submitted to the NIST PQC standardization process and made it to the second round. In July 2020, it was announced that qTESLA is not advancing to the third round.
+</span>
+Highlights</p>
+<span style="font-size: 18pt;"><strong>Simplicity.<br class="“clear“"></strong></span>
+<span style="font-family: verdana,geneva,sans-serif;">qTESLA</span> is simple and easy to implement, and its design makes possible the realization of compact and portable implementations that achieve high performance. In addition, the use of a simplified Gaussian sampler is limited to key generation.<br class="“clear“"><br class="“clear“">
+
+<span style="font-size: 18pt;"><strong>Security foundation. <br class="“clear“"></strong></span>
+The underlying security of qTESLA is based on the hardness
+of the decisional R-LWE problem, and comes accompanied by a tight security reduction in the (quantum) random oracle model.<br class="“clear“"><br class="“clear“">
+
+<span style="font-size: 18pt;"><strong>Practical security.<br class="“clear“"></strong> </span>
+By design, <span style="font-family: verdana,geneva,sans-serif;">qTESLA</span> facilitates secure implementations. In par-
+ticular, it supports constant-time implementations (i.e., implementations that are secure against timing and cache side-channel attacks since their execution time does not depend on secret values), and is inherently protected against certain simple yet powerful fault attacks.<br class="“clear“"><br class="“clear“">
+
+<span style="font-size: 18pt;"><strong>Scalability and portability.<br class="“clear“"></strong></span>
+<span style="font-family: verdana,geneva,sans-serif;">qTESLA</span>’s simple design makes it straightforward to
+easily support more than one security level and parameter set with a single, efficient portable implementation.&nbsp;
+<h2 id="specs">Specification</h2>
+The detailed description of the <span style="font-family: verdana,geneva,sans-serif;">qTESLA</span> specifications can be downloaded below:&nbsp;<br class="“clear“"><br class="“clear“">
+
+<strong><a class="maxbutton-1 maxbutton maxbutton-specs" href="/wp-content/uploads/2020/04/qTESLA_round2_14.04.2020.pdf"><span class="mb-text">qTESLA specification (PDF)</span></a></strong><br class="blank">
+<br class="blank">
+
+The signature scheme is also described in the following preprint that is available in the IACR eprint archive:&nbsp; <br class="“clear“"><br class="“clear“">
+
+<strong><a class="maxbutton-8 maxbutton maxbutton-pre-print" target="_blank" rel="noopener" href="https://eprint.iacr.org/2019/085"><span class="mb-text">qTESLA preprint</span></a></strong>
+<h2 id="code">Code</h2>
+The reference implementation of <span style="font-family: verdana,geneva,sans-serif;">qTESLA </span>can be found on GitHub: <br class="“clear“"><br class="“clear“">
+
+<strong><a class="maxbutton-2 maxbutton maxbutton-code" href="https://github.com/qtesla/qTesla"><span class="mb-text">qTESLA code (GitHub)</span></a></strong>
+
+<br class="“clear“"><strong> </strong><strong></strong>The entire submission package be downloaded below:<br class="“clear“"><br class="“clear“">
+
+<strong><a class="maxbutton-4 maxbutton maxbutton-package" href="/wp-content/uploads/2020/04/qTESLA_NIST_update_14.04.2020.zip"><span class="mb-text">qTESLA submission package</span></a></strong><br class="“clear“">
+<br class="“clear“">
+
+<strong> </strong><strong></strong>Additionally, qTESLA is integrated in the cryptographic libraries BouncyCastle and liboqs. The respective implementations can be found on GitHub:<br class="“clear“"><br class="“clear“">
+
+<strong><a class="maxbutton-6 maxbutton maxbutton-code-in-bc" href="https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/qtesla"><span class="mb-text">qTESLA in BouncyCastle</span></a> &nbsp;<a class="maxbutton-5 maxbutton maxbutton-code-in-liboqs" href="https://github.com/open-quantum-safe/liboqs/tree/nist-branch/src/sig/qtesla"><span class="mb-text">qTESLA in liboqs</span></a></strong><br class="“clear“">
+<br class="“clear“">
+
+<br class="“clear“"><strong> </strong><strong></strong>Moreover, there exists a hardware-software co-design using RISC-V. In particular, this work demonstrates that qTESLA achieves over a 40-100x speedup for key generation, about a 10x speedup for signing, and about a 16x speedup for verification, compared to the baseline RISC-V software-only implementation.
+<em>(Parameterized Hardware Accelerators for Lattice-Based Cryptography and Their Application to the HW/SW Co-Design of qTESLA. Wen Wang and Shanquan Tian and Bernhard Jungk and Nina Bindel and Patrick Longa and Jakub Szefer. Cryptology ePrint Archive: Report 2020/054)</em>
+<br class="“clear“">
+<br class="“clear“">
+
+<strong> <a class="maxbutton-9 maxbutton maxbutton-eprint-fpga" href="https://eprint.iacr.org/2020/054"><span class="mb-text">eprint report 2020/054</span></a> <a class="maxbutton-10 maxbutton maxbutton-fpga-code" href="https://caslab.csl.yale.edu/code/qtesla-hw-sw-platform/"><span class="mb-text">HW/SW co-design (GitHub)</span></a></strong>
+<h2 id="performance">Performance</h2>
+The table below displays the median performance (in thousands of cycles) of the reference implementation of <span style="font-family: verdana,geneva,sans-serif;">qTESLA</span>&nbsp;on a 3.40 Intel Core i7-6700 (Skylake) processor. Cycle counts are rounded to the&nbsp;nearest 100 cycles.
+<table>
+<tbody>
+<tr>
+<td style="vertical-align: middle;"><strong>Scheme&nbsp; &nbsp;</strong></td>
+<td style="text-align: center; vertical-align: middle;"><span style="font-family: courier\ new, courier, monospace;"><strong>keygen</strong></span></td>
+<td style="text-align: center; vertical-align: middle;"><span style="font-family: courier\ new, courier, monospace;"><strong>sign</strong></span></td>
+<td style="text-align: center; vertical-align: middle;"><span style="font-family: courier\ new, courier, monospace;"><strong>verify</strong></span></td>
+<td style="text-align: center; vertical-align: middle;"><span style="font-family: courier\ new, courier, monospace;"><strong>total</strong></span>
+<span style="font-family: courier\ new, courier, monospace;"><strong>(sign+verify)</strong></span></td>
+</tr>
+<tr>
+<td><span style="font-family: verdana, geneva, sans-serif;">qTESLA-p-I</span></td>
+<td style="text-align: center;">2, 358.6</td>
+<td style="text-align: center;">2, 299.0</td>
+<td style="text-align: center;">814.3</td>
+<td style="text-align: center;">3, 113.3</td>
+</tr>
+<tr>
+<td><span style="font-family: verdana, geneva, sans-serif;">qTESLA-p-III</span></td>
+<td style="text-align: center;">13, 151.4</td>
+<td style="text-align: center;">5, 212.3</td>
+<td style="text-align: center;">2,102.3</td>
+<td style="text-align: center;">7, 314.6</td>
+</tr>
+</tbody>
+</table>
+The table below displays the median performance (in thousands of cycles) of the AVX2 implementation of <span>qTESLA</span>&nbsp;on a 3.40 Intel Core i7-6700 (Skylake) processor. Cycle counts are rounded to the&nbsp;nearest 100 cycles.
+<table>
+<tbody>
+<tr>
+<td><strong>Scheme&nbsp; &nbsp;</strong></td>
+<td><span><strong>keygen</strong></span></td>
+<td><span><strong>sign</strong></span></td>
+<td><span><strong>verify</strong></span></td>
+<td><span><strong>total</strong></span>
+<span><strong>(sign+verify)</strong></span></td>
+</tr>
+<tr>
+<td><span>qTESLA-p-I</span></td>
+<td>2, 212.4</td>
+<td>1, 370.4</td>
+<td>678.4</td>
+<td>2, 048.8</td>
+</tr>
+<tr>
+<td><span>qTESLA-p-III</span></td>
+<td>12, 791.0</td>
+<td>3, 081.9</td>
+<td>1, 745.3</td>
+<td>4, 827.2</td>
+</tr>
+</tbody>
+</table>
+The table below displays the public key and signature sizes of the proposed <span style="font-family: verdana,geneva,sans-serif;">qTESLA</span> instantiations are as follows. Sizes are given in bytes.&nbsp;&nbsp;
+<table>
+<tbody>
+<tr>
+<td><strong>Scheme&nbsp; &nbsp;</strong></td>
+<td style="text-align: center;"><span style="font-family: courier\ new, courier, monospace;"><strong>secret key</strong></span></td>
+<td style="text-align: center;"><span style="font-family: courier\ new, courier, monospace;"><strong>public key</strong></span></td>
+<td style="text-align: center;"><span style="font-family: courier\ new, courier, monospace;"><strong>signature</strong></span></td>
+</tr>
+<tr>
+<td><span style="font-family: verdana, geneva, sans-serif;">qTESLA-p-I</span></td>
+<td style="text-align: center;">5, 224</td>
+<td style="text-align: center;">14, 880</td>
+<td style="text-align: center;">2, 592</td>
+</tr>
+<tr>
+<td><span style="font-family: verdana, geneva, sans-serif;">qTESLA-p-III</span></td>
+<td style="text-align: center;">12, 392</td>
+<td style="text-align: center;">38, 432</td>
+<td style="text-align: center;">5, 664</td>
+</tr>
+</tbody>
+</table>
+<h2 id="team">Team</h2>
+The <span style="font-family: verdana,geneva,sans-serif;">qTESLA</span> team consists of the following researchers from academia and industry (listed in alphabetical order):&nbsp;
+<table style="border-color: #fcfcfc; background-color: #fcfcfc;" width="708">
+<tbody>
+<tr style="height: 42px;">
+<td style="width: 267.778px; height: 42px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="https://personel.omu.edu.tr/en/sedat.akleylek">Sedat Akleylek</a></span></strong></span></td>
+<td style="width: 437.778px; height: 42px;">Ondokuz Mayis University, Turkey</td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 267.778px; height: 27px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="https://erdemalkim.github.io/">Erdem Alkim</a></span></strong></span></td>
+<td style="width: 437.778px; height: 27px;">Ondokuz Mayis University, Turkey and Fraunhofer SIT, Germany</td>
+</tr>
+<tr style="height: 40px;">
+<td style="width: 267.778px; height: 40px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="http://directory.tacoma.uw.edu/employee/pbarreto">Paulo S. L. M. Barreto</a></span></strong></span></td>
+<td style="width: 437.778px; height: 40px;">University of Washington Tacoma, USA</td>
+</tr>
+<tr style="height: 33px;">
+<td style="width: 267.778px; height: 33px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="https://ninabindel.de/">Nina Bindel</a></span></strong></span></td>
+<td style="width: 437.778px; height: 33px;">University of Waterloo, Canada</td>
+</tr>
+<tr style="height: 41px;">
+<td style="width: 267.778px; height: 41px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="https://www.informatik.tu-darmstadt.de/cdc/home_cdc/personen_cdc/johannes_buchmann/" class="broken_link">Johannes Buchmann</a></span></strong></span></td>
+<td style="width: 437.778px; height: 41px;">Technische Universität Darmstadt, Germany</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 267.778px; height: 36px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="http://eeaton.ca/">Edward Eaton</a></span></strong></span></td>
+<td style="width: 437.778px; height: 36px;">ISARA Corporation and University of Waterloo, Canada</td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 267.778px; height: 30px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;">Gus Gutoski</span></strong></span></td>
+<td style="width: 437.778px; height: 30px;">ISARA Corporation, Canada</td>
+</tr>
+<tr style="height: 40px;">
+<td style="width: 267.778px; height: 40px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="https://www.informatik.tu-darmstadt.de/cdc/home_cdc/personen_cdc/juliane_kraemer/" class="broken_link">Juliane Krämer</a></span></strong></span></td>
+<td style="width: 437.778px; height: 40px;">Technische Universität Darmstadt, Germany</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 267.778px; height: 44px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;"><a style="color: #333333;" href="https://www.microsoft.com/en-us/research/people/plonga/">Patrick Longa</a></span></strong></span></td>
+<td style="width: 437.778px; height: 44px;">Microsoft Research, USA</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 267.778px; height: 46px;"><span style="color: #333333;"><strong><span style="font-size: 14pt;">Harun Polat</span></strong></span></td>
+<td style="width: 437.778px; height: 46px;">Technische Universität Darmstadt, Germany</td>
+</tr>
+<tr style="height: 40px;">
+<td style="width: 267.778px; height: 40px;"><a href="https://www.researchgate.net/profile/Jefferson_Ricardini" class="broken_link"><span style="color: #333333;"><strong><span style="font-size: 14pt;">Jefferson E. Ricardini</span></strong></span></a></td>
+<td style="width: 437.778px; height: 40px;">LG Electronics, USA</td>
+</tr>
+<tr style="height: 33.2917px;">
+<td style="width: 267.778px; height: 33.2917px;"><a href="https://scholar.google.com.br/citations?user=MAvrHY8AAAAJ&amp;hl=pt-BR"><span style="color: #333333;"><strong><span style="font-size: 14pt;">Gustavo Zanon</span></strong></span></a></td>
+<td style="width: 437.778px; height: 33.2917px;">University of São Paulo, Brazil</td>
+</tr>
+</tbody>
+</table>
+You can contact the <span style="font-family: verdana,geneva,sans-serif;">qTESLA</span> team via info@qtesla-signature.github.io.
+&nbsp;&nbsp;&nbsp;&nbsp;
+<strong><a class="maxbutton-3 maxbutton maxbutton-contact" href="mailto:info@qtesla-signature.github.io"><span class="mb-text">Contact qTESLA team</span></a></strong></div><!-- /.entry-content-inner --></div>
+
+	<div class="entry-skip-links"><a class="skip-link screen-reader-text" href="http://qtesla-signature.github.io/#site-navigation">Skip back to main navigation</a></div>
+</article>
+
+
+
+		</main><!-- /#main -->
+	</div><!-- /#primary -->
+</div><!-- /.site-content-inner -->
+</div><!-- /#content -->
+
+
+
+<footer id="colophon" class="site-footer">
+
+
+<div class="site-footer-area footer-area-footer-widgets">
+	<div class="footer-widgets-inner site-footer-area-inner">
+
+		<aside id="footer-widgets" class="widget-area footer-widgets" aria-label="Footer widgets">
+
+			<section id="media_image-3" class="widget widget_media_image"><img width="150" height="150" src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/lazy_placeholder.gif" data-lazy-type="image" data-src="/wp-content/uploads/2018/06/omu-logotr-500px-150x150.png" class="lazy-hidden image wp-image-57 attachment-150x150 size-150x150" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="" data-srcset="/wp-content/uploads/2018/06/omu-logotr-500px-150x150.png 150w, /wp-content/uploads/2018/06/omu-logotr-500px-300x300.png 300w, /wp-content/uploads/2018/06/omu-logotr-500px.png 500w" sizes="(max-width: 150px) 100vw, 150px"><noscript><img width="150" height="150" src="/wp-content/uploads/2018/06/omu-logotr-500px-150x150.png" class="image wp-image-57  attachment-150x150 size-150x150" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="/wp-content/uploads/2018/06/omu-logotr-500px-150x150.png 150w, /wp-content/uploads/2018/06/omu-logotr-500px-300x300.png 300w, /wp-content/uploads/2018/06/omu-logotr-500px.png 500w" sizes="(max-width: 150px) 100vw, 150px" /></noscript></section><section id="media_image-4" class="widget widget_media_image"><img width="150" height="150" src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/lazy_placeholder.gif" data-lazy-type="image" data-src="/wp-content/uploads/2018/06/twit_UWT.JPG_-150x150.jpg" class="lazy-hidden image wp-image-101 attachment-150x150 size-150x150" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="" data-srcset="/wp-content/uploads/2018/06/twit_UWT.JPG_-150x150.jpg 150w, /wp-content/uploads/2018/06/twit_UWT.JPG_-300x300.jpg 300w, /wp-content/uploads/2018/06/twit_UWT.JPG_.jpg 500w" sizes="(max-width: 150px) 100vw, 150px"><noscript><img width="150" height="150" src="/wp-content/uploads/2018/06/twit_UWT.JPG_-150x150.jpg" class="image wp-image-101  attachment-150x150 size-150x150" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="/wp-content/uploads/2018/06/twit_UWT.JPG_-150x150.jpg 150w, /wp-content/uploads/2018/06/twit_UWT.JPG_-300x300.jpg 300w, /wp-content/uploads/2018/06/twit_UWT.JPG_.jpg 500w" sizes="(max-width: 150px) 100vw, 150px" /></noscript></section><section id="media_image-5" class="widget widget_media_image"><img width="325" height="150" src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/lazy_placeholder.gif" data-lazy-type="image" data-src="/wp-content/uploads/2018/06/tud_logo_web_druck-e1528553501825.png" class="lazy-hidden image wp-image-100 attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy"><noscript><img width="325" height="150" src="/wp-content/uploads/2018/06/tud_logo_web_druck-e1528553501825.png" class="image wp-image-100  attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" /></noscript></section><section id="media_image-6" class="widget widget_media_image"><img width="277" height="150" src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/lazy_placeholder.gif" data-lazy-type="image" data-src="/wp-content/uploads/2018/06/59010b6058044814499e70c3_ISARA-Corp_WEB-e1528553573533.png" class="lazy-hidden image wp-image-98 attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy"><noscript><img width="277" height="150" src="/wp-content/uploads/2018/06/59010b6058044814499e70c3_ISARA-Corp_WEB-e1528553573533.png" class="image wp-image-98  attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" /></noscript></section><section id="media_image-7" class="widget widget_media_image"><img width="258" height="116" src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/lazy_placeholder.gif" data-lazy-type="image" data-src="/wp-content/uploads/2018/06/ms_logo_cam.gif" class="lazy-hidden image wp-image-99 attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy"><noscript><img width="258" height="116" src="/wp-content/uploads/2018/06/ms_logo_cam.gif" class="image wp-image-99  attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" /></noscript></section><section id="media_image-8" class="widget widget_media_image"><img width="102" height="150" src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/lazy_placeholder.gif" data-lazy-type="image" data-src="/wp-content/uploads/2018/06/University-of-Sao-Paulo-203x300.gif" class="lazy-hidden image wp-image-102 attachment-102x150 size-102x150" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy"><noscript><img width="102" height="150" src="/wp-content/uploads/2018/06/University-of-Sao-Paulo-203x300.gif" class="image wp-image-102  attachment-102x150 size-102x150" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" /></noscript></section><section id="media_image-11" class="widget widget_media_image"><img width="300" height="121" src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/lazy_placeholder.gif" data-lazy-type="image" data-src="/wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494-300x121.png" class="lazy-hidden image wp-image-266 attachment-medium size-medium" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="" data-srcset="/wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494-300x121.png 300w, /wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494-768x309.png 768w, /wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494.png 811w" sizes="(max-width: 300px) 100vw, 300px"><noscript><img width="300" height="121" src="/wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494-300x121.png" class="image wp-image-266  attachment-medium size-medium" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="/wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494-300x121.png 300w, /wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494-768x309.png 768w, /wp-content/uploads/2019/11/universityofwaterloo_logo_horiz_rgb-e1534606288494.png 811w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></section>
+		</aside>
+
+	</div>
+</div>
+
+<div class="site-footer-area footer-area-site-info">
+	<div class="site-footer-area-inner site-info-inner">
+
+		
+		<div class="site-info">
+			Copyright © qTESLA team 2020.
+qTESLA source code is released to public domain; see GitHub project for details.
+Cover image by Wellcome Library, London, available under CC BY 4.0		</div>
+
+		
+	</div>
+</div>
+
+
+</footer>
+
+
+</div><!-- /#page -->
+
+
+<div id="um_upload_single" style="display:none"></div>
+
+<div id="um_view_photo" style="display:none">
+
+	<a href="javascript:void(0);" data-action="um_remove_modal" class="um-modal-close" aria-label="Close view photo modal">
+		<i class="um-faicon-times"></i>
+	</a>
+
+	<div class="um-modal-body photo">
+		<div class="um-modal-photo"></div>
+	</div>
+
+</div>
+<!--noptimize--><!--email_off--><style type="text/css">.maxbutton-1.maxbutton.maxbutton-specs{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-1.maxbutton.maxbutton-specs:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-1.maxbutton.maxbutton-specs .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-1.maxbutton.maxbutton-specs:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-1.maxbutton.maxbutton-specs{width:90%}.maxbutton-1.maxbutton.maxbutton-specs .mb-text{font-size:11px}}
+.maxbutton-8.maxbutton.maxbutton-pre-print{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-8.maxbutton.maxbutton-pre-print:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-8.maxbutton.maxbutton-pre-print .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-8.maxbutton.maxbutton-pre-print:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-8.maxbutton.maxbutton-pre-print{width:90%}.maxbutton-8.maxbutton.maxbutton-pre-print .mb-text{font-size:11px}}
+.maxbutton-2.maxbutton.maxbutton-code{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-2.maxbutton.maxbutton-code:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-2.maxbutton.maxbutton-code .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-2.maxbutton.maxbutton-code:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-2.maxbutton.maxbutton-code{width:90%}.maxbutton-2.maxbutton.maxbutton-code .mb-text{font-size:11px}}
+.maxbutton-4.maxbutton.maxbutton-package{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-4.maxbutton.maxbutton-package:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-4.maxbutton.maxbutton-package .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-4.maxbutton.maxbutton-package:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-4.maxbutton.maxbutton-package{width:90%}.maxbutton-4.maxbutton.maxbutton-package .mb-text{font-size:11px}}
+.maxbutton-6.maxbutton.maxbutton-code-in-bc{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-6.maxbutton.maxbutton-code-in-bc:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-6.maxbutton.maxbutton-code-in-bc .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-6.maxbutton.maxbutton-code-in-bc:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-6.maxbutton.maxbutton-code-in-bc{width:90%}.maxbutton-6.maxbutton.maxbutton-code-in-bc .mb-text{font-size:11px}}
+.maxbutton-5.maxbutton.maxbutton-code-in-liboqs{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-5.maxbutton.maxbutton-code-in-liboqs:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-5.maxbutton.maxbutton-code-in-liboqs .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-5.maxbutton.maxbutton-code-in-liboqs:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-5.maxbutton.maxbutton-code-in-liboqs{width:90%}.maxbutton-5.maxbutton.maxbutton-code-in-liboqs .mb-text{font-size:11px}}
+.maxbutton-9.maxbutton.maxbutton-eprint-fpga{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-9.maxbutton.maxbutton-eprint-fpga:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-9.maxbutton.maxbutton-eprint-fpga .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-9.maxbutton.maxbutton-eprint-fpga:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-9.maxbutton.maxbutton-eprint-fpga{width:90%}.maxbutton-9.maxbutton.maxbutton-eprint-fpga .mb-text{font-size:11px}}
+.maxbutton-10.maxbutton.maxbutton-fpga-code{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-10.maxbutton.maxbutton-fpga-code:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-10.maxbutton.maxbutton-fpga-code .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-10.maxbutton.maxbutton-fpga-code:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-10.maxbutton.maxbutton-fpga-code{width:90%}.maxbutton-10.maxbutton.maxbutton-fpga-code .mb-text{font-size:11px}}
+.maxbutton-3.maxbutton.maxbutton-contact{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:200px;height:50px;border:2px outset #1e1e1e;border-radius:6px 6px 6px 6px;background-color:#1e1e1e;box-shadow:0px 0px 2px 0px #333333}.maxbutton-3.maxbutton.maxbutton-contact:hover{border-color:#ffffff;background-color:white;box-shadow:0px 0px 2px 0px #333333}.maxbutton-3.maxbutton.maxbutton-contact .mb-text{color:#ffffff;font-size:14px;text-align:center;font-style:normal;font-weight:normal;line-height:1em;box-sizing:border-box;display:block;background-color:unset;padding:18px 0px 0px 0px}.maxbutton-3.maxbutton.maxbutton-contact:hover .mb-text{color:#000000}@media only screen and (min-width:0px) and (max-width:480px){.maxbutton-3.maxbutton.maxbutton-contact{width:90%}.maxbutton-3.maxbutton.maxbutton-contact .mb-text{font-size:11px}}
+</style><!--/email_off--><!--/noptimize-->
+                <style type="text/css">
+                    @media screen and (max-width:480px){
+                        .wpfm-menu-wrapper{display:none; }	
+                    }
+                </style>
+                        <div class="wpfm-floating-wh-wrapper">
+                                                     <div class="wpfm-menu-wrapper wpfm-template-3" data-pos-offset-var="0" data-disable-double-touch="0">
+                                    <nav id="wpfm-floating-menu-nav" class="wpfm-menu-nav wpfm wpfm-position-right">
+                                        <ul>
+                                                                                                <li class=" ">
+                                                        <a title="About" class="wpfm-menu-link" href="/#about">
+                                                                                                                            <span class="wpfm-icon-block">                
+                                                                                                                                            <i class="dashicons dashicons-info" aria-hidden="true"></i>      
+                                                                </span>
+                                                                                                                                    <span class="name wpfm-menu-name">
+                                                                        About                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="Highlights" class="wpfm-menu-link" href="/#highlights">
+                                                                                                                            <span class="wpfm-icon-block">                
+                                                                                                                                            <i class="dashicons dashicons-star-filled" aria-hidden="true"></i>      
+                                                                </span>
+                                                                                                                                    <span class="name wpfm-menu-name">
+                                                                        Highlights                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="Specs" class="wpfm-menu-link" href="/#specs">
+                                                                                                                            <span class="wpfm-icon-block">                
+                                                                                                                                            <i class="genericon genericon-edit" aria-hidden="true"></i>      
+                                                                </span>
+                                                                                                                                    <span class="name wpfm-menu-name">
+                                                                        Specification                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="Code" class="wpfm-menu-link" href="/#code">
+                                                                                                                            <span class="wpfm-icon-block">                
+                                                                                                                                            <i class="genericon genericon-github" aria-hidden="true"></i>      
+                                                                </span>
+                                                                                                                                    <span class="name wpfm-menu-name">
+                                                                        Code                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="Performance" class="wpfm-menu-link" href="/#performance">
+                                                                                                                            <span class="wpfm-icon-block">                
+                                                                                                                                            <i class="dashicons dashicons-chart-area" aria-hidden="true"></i>      
+                                                                </span>
+                                                                                                                                    <span class="name wpfm-menu-name">
+                                                                        Performance                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="Team" class="wpfm-menu-link" href="/#team">
+                                                                                                                            <span class="wpfm-icon-block">                
+                                                                                                                                            <i class="dashicons dashicons-admin-users" aria-hidden="true"></i>      
+                                                                </span>
+                                                                                                                                    <span class="name wpfm-menu-name">
+                                                                        Team                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                      
+                                        </ul>             
+                                    </nav>
+                                </div>
+                                                        <style type="text/css">
+                                /* Font Icon Background */
+                                .wpfm-template-1 ul li a,.wpfm-template-1 ul li .wpfm-icon-block,.wpfm-template-1 .wpfm-position-right ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-right ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-right ul li a:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-top-left ul li.wpfm-     title-hidden a:hover .wpfm-icon-block , .wpfm-template-1 .wpfm-position-bottom-left ul li.wpfm-title-hidden a:hover .wpfm-icon-block,.wpfm-template-1 .wpfm-position-left ul li.wpfm-title-hidden a:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-top-right ul li.wpfm-title-hidden a:hover .wpfm-icon-block , .wpfm-template-1 .wpfm-position-bottom-right ul li.wpfm-title-hidden a:hover .wpfm-icon-block,.wpfm-template-1 .wpfm-position-right ul li.wpfm-title-hidden a:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-left ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-left ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-left ul li a:hover .wpfm-icon-block,
+                                .wpfm-template-2 .wpfm-menu-nav.wpfm-position-left ul li a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-top-left ul li  a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-bottom-left ul li a,
+                                .wpfm-template-2 .wpfm-menu-nav.wpfm-position-right ul li a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-top-right ul li a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-bottom-right ul li a,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul > li > a span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul > li > a span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul > li > a span.wpfm-icon-block,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul li a:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul li a:hover,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul > li > a span.wpfm-icon-block,.wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li > a:hover,
+                                .wpfm-template-4 ul li .wpfm-icon-block
+                                { 
+                                    background: #000000;                    
+                                }
+
+                                /* Menu Background for template 5 */
+                                .wpfm-template-5 ul,.wpfm-template-5 .wpfm-nav-strech-trigger span
+                                {
+                                    background: ;
+                                }
+
+                                /* For Title Color, Font Family */   
+                                .wpfm-template-1 .wpfm-menu-nav.wpfm-position-right ul li > a:hover > span.wpfm-menu-name, .wpfm-template-1 .wpfm-menu-nav.wpfm-position-top-right ul li > a:hover > span.wpfm-menu-name,
+                                .wpfm-template-1 .wpfm-menu-nav.wpfm-position-bottom-right ul li > a:hover > span.wpfm-menu-name,
+                                .wpfm-template-1 ul li .wpfm-menu-name,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a span.wpfm-menu-name,.wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li a span.wpfm-menu-name,
+                                .wpfm-template-4 ul li .wpfm-menu-name,.wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name, .wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a span.wpfm-menu-name
+                                { 
+                                    color:#ffffff;
+                                    font-family:default; 
+                                }
+                                /* For Title Font Size */  
+                                .wpfm-template-1 a span.wpfm-menu-name,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name,.wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-4 ul li .wpfm-menu-name,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a span.wpfm-menu-name
+                                { 
+                                    font-size:12px;
+                                }
+                                /* For Icon Size */   
+                                .wpfm-template-1 .wpfm-menu-nav.wpfm-position-right ul li > a .wpfm-icon-block i,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a span i,
+                                .wpfm-template-3 .wpfm-menu-nav ul li a span i,
+                                .wpfm-template-4 .wpfm-menu-nav ul li a span i,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a span.wpfm-icon-block i
+                                {
+                                    font-size:30px;
+                                }
+
+                                /* Title Background Color For Template 4 */
+                                .wpfm-template-4 .wpfm-menu-nav ul li >a:hover >span.wpfm-menu-name
+                                { 
+                                    background:;  
+                                }
+                                /* For Icon margin */  
+                                .wpfm-template-1 ul li, .wpfm-template-2 ul li, .wpfm-template-3 ul li, .wpfm-template-4 ul li,
+                                .wpfm-template-4 ul li a,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a
+                                {
+                                    margin-bottom:5px;
+                                }
+                                /** Tooltip Title */
+                                .wpfm-template-1 ul li > .wpfm-tootltip-title, 
+                                .wpfm-template-2 ul li > .wpfm-tootltip-title, 
+                                .wpfm-template-3 ul li > .wpfm-tootltip-title, 
+                                .wpfm-template-4 ul li > .wpfm-tootltip-title,
+                                .wpfm-template-8.wpfm-position-right .wpfm-tootltip-title, .wpfm-template-8.wpfm-position-top-right .wpfm-tootltip-title,.wpfm-template-8.wpfm-position-bottom-right .wpfm-tootltip-title,
+                                .wpfm-template-5 .wpfm-menu-nav ul li > span.wpfm-tootltip-title
+                                {
+                                    color: #ffffff;
+                                    background: #000000;
+                                    font-size: 12px;
+                                    font-family: default;
+                                    text-transform: uppercase;
+                                }
+
+                                /* Border color for tooltip text arrow */
+                                .wpfm-template-1 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-2 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after, 
+                                .wpfm-template-3 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after,                
+                                .wpfm-template-4 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-4 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after,                 
+                                .wpfm-template-4 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-5 .wpfm-position-right ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-position-top-right ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-menu-nav.wpfm-position-bottom-right ul li  span.wpfm-tootltip-title:before
+                                {
+                                    border-color:transparent transparent transparent #000000;
+                                }
+                                .wpfm-template-1 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-2 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, 
+                                .wpfm-template-3 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-3 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-4 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-4 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-4 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-5 .wpfm-position-left ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-position-top-left ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-menu-nav.wpfm-position-bottom-left ul li  span.wpfm-tootltip-title:before
+                                {
+                                    border-color:transparent #000000 transparent transparent;  
+                                }
+
+                                /* active hover color for inline navigation and sticky menu */
+                                .wpfm-template-1 ul li a.wpfm-active-nav, .wpfm-template-1 ul li a.wpfm-active-nav .wpfm-icon-block, .wpfm-template-1 .wpfm-position-left ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-left ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-left ul li a.wpfm-active-nav:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-right ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-right ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-right ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-left ul li.wpfm-title-hidden a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-left ul li.wpfm-title-hidden a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-left ul li.wpfm-title-hidden a.wpfm-active-nav:hover .wpfm-icon-block,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a.wpfm-active-nav,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul > li > a.wpfm-active-nav span.wpfm-icon-block,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-right ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-right ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li a.wpfm-active-nav,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-right ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-right ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-right ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-right ul li a.wpfm-active-nav:hover,
+                                .wpfm-template-4 .wpfm-position-left ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-left ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-left ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-right ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-right ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-right ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-left ul li a.wpfm-active-nav  .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-left ul li .wpfm-active-nav .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-left ul li a.wpfm-active-nav  .wpfm-icon-block,
+                                .wpfm-template-4 .wpfm-position-right ul li a.wpfm-active-nav  .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-right ul li a.wpfm-active-nav  .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-right ul li a.wpfm-active-nav  .wpfm-icon-block
+                                {
+                                    background:#ffffff;
+                                }
+
+                                /* Active class implementation in template 5 */
+                                .wpfm-template-5 .wpfm-menu-nav ul li a:hover span.wpfm-icon-block i, .wpfm-template-5 .wpfm-menu-nav ul li a:hover span.wpfm-menu-name, .wpfm-template-5 .wpfm-menu-nav ul li a.wpfm-active-nav span.wpfm-icon-block i, .wpfm-template-5 .wpfm-menu-nav ul li a.wpfm-active-nav span.wpfm-menu-name
+                                {
+                                    color:#ffffff !important;
+                                }
+                                .wpfm-template-5 .wpfm-nav-strech-trigger span i{
+                                    color:                                }
+
+                                .wpfm-template-5 .wpfm-nav-close-trigger span i{
+                                    color:                                }
+                            </style>
+                           
+                                        </div>
+            		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/index.js" id="swv-js"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"http:\/\/qtesla-signature.github.io\/wp-json\/","namespace":"contact-form-7\/v1"}};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/index(1).js" id="contact-form-7-js"></script>
+<script id="jquery-lazyloadxt-js-extra">
+var a3_lazyload_params = {"apply_images":"1","apply_videos":"1"};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/jquery.lazyloadxt.extra.min.js" id="jquery-lazyloadxt-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/jquery.lazyloadxt.srcset.min.js" id="jquery-lazyloadxt-srcset-js"></script>
+<script id="jquery-lazyloadxt-extend-js-extra">
+var a3_lazyload_extend_params = {"edgeY":"0","horizontal_container_classnames":""};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/jquery.lazyloadxt.extend.js" id="jquery-lazyloadxt-extend-js"></script>
+<script id="reykjavik-skip-link-focus-fix-js-extra">
+var $reykjavikBreakpoints = {"s":"448","m":"672","l":"880","xl":"1280","xxl":"1600","xxxl":"1920","xxxxl":"2560"};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/skip-link-focus-fix.js" id="reykjavik-skip-link-focus-fix-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/scripts-navigation-mobile.min.js" id="reykjavik-scripts-nav-mobile-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/scripts-global.js" id="reykjavik-scripts-global-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/select2.full.min.js" id="select2-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/underscore-before.js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/underscore.min.js" id="underscore-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/underscore-after.js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/wp-util.min.js" id="wp-util-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-crop.min.js" id="um_crop-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-modal.min.js" id="um_modal-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-jquery-form.min.js" id="um_jquery_form-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-fileupload.js" id="um_fileupload-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/picker.js" id="um_datetime-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/picker.date.js" id="um_datetime_date-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/picker.time.js" id="um_datetime_time-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/hooks.min.js" id="wp-hooks-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/i18n.min.js" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-raty.min.js" id="um_raty-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-tipsy.min.js" id="um_tipsy-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/masonry.min.js" id="masonry-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/jquery.masonry.min.js" id="jquery-masonry-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/simplebar.min.js" id="um_scrollbar-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-functions.min.js" id="um_functions-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-responsive.min.js" id="um_responsive-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-conditional.min.js" id="um_conditional-js"></script>
+<script id="um_scripts-js-extra">
+var um_scripts = {"max_upload_size":"134217728","nonce":"3d740b6cb9"};
+</script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-scripts.min.js" id="um_scripts-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-profile.min.js" id="um_profile-js"></script>
+<script src="./qTESLA – Efficient and post-quantum secure lattice-based signature scheme_files/um-account.min.js" id="um_account-js"></script>
+		<script type="text/javascript">
+			jQuery( window ).on( 'load', function() {
+				jQuery('input[name="um_request"]').val('');
+			});
+		</script>
+	
+
+
+
+</body></html>
